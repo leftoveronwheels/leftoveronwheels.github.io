@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>LOOW</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="l_c_h">
+	<div class="c_h">
+    	<div class="left_c">
+            <div class="left right_c left_icons">
+                   <a href="#" class="mini" style="font-size:18px;">+</a>
+            </div>
+            <div class="left center_icons"><!--center_icons-->
+                 Chat us
+            </div><!--end center_icons-->        	
+        </div>
+        <div class="right right_c" style="width:35px;">
+        	<a href="#" class="logout" title="End chat" name="" style="display:none;"><img src="chat/logout.png"></a>        	
+        </div>
+        <div class="clear"></div>
+    </div>
+        <div class="chat_container" style="display: none;">
+            <iframe src="https://web.powerva.microsoft.com/environments/Default-7335011f-1748-4902-8dee-6f4dac036859/bots/new_bot_778488b70d4644d2883a89b6e68302b5/webchat" style="height:450px"></iframe>
+        </div>
+</div>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">FEED <span>NEEDY</span></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="ngo.html" class="nav-item nav-link active">NGO</a>
+                        <a href="restaurants.html" class="nav-item nav-link active">Restaurants</a>
+                        <a href="volunteer.html" class="nav-item nav-link active">Volunteer</a>
+                        <a href="donate.html" class="nav-item nav-link active">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+                <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/loow%20bg.png" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                                <a class="btn custom-btn"> NGO/TRUSTEE APK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+<!-- About Start -->
+        <div class="about">
+            <div class="container">
+            <div class="section-header text-center">
+                    <h2>NGO/TRUSTEE Application</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/loow%20logo.png" alt="Image">
+                            <button type="button" class="btn-play" data-toggle="modal" data-src="" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header">
+                                <p>About Project</p>
+                            </div>
+                                                   <div class="about-text">
+                                <p>
+                                    LOOW application is built using azure services, front end UI is built using html,css and backend data stored in cosmodb.
+                                </p>
+                                <div class="section-header">                           
+<p>Azure function:-</p>
+                                </div>
+<li>Httptrigger:- which used to save event data in cosmodb.</li>
+                             <p><li>Timetrigger:- which send mail communication to Event admin about user in a timely manner.</li></p>
+
+<li>Azure cosmodb(Backend source):-User Data stored in cosmodb.</li>
+
+  <p><li>Sendgrid twilio:-Mail communication sent to Event admin in a timely manner by Azure function time trigger.</li></p>
+
+<li>Github:-Application hosted in github.</li>
+                          <div class="about-text">
+                                <a class="btn custom-btn" href="">Download NGO APK</a>
+                            </div>
+                           
+                            </div>
+                           
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- About End --> 
+        
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End --> 
+                <!-- Food Start -->
+        <div class="food">
+            <div class="container">
+               <div class="section-header text-center">
+                    <h2>LooW Application</h2>
+                </div>
+                <div class="row align-items-center">
+                   
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-medal"></i>
+                            <h2>NGO/TRUSTEES</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-cooking"></i>
+                            <h2>RESTAURANTS</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-courier"></i>
+                            <h2>VOLUNTEERS</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Food End -->
+<!-- Contact Start -->
+        <div class="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Contact Us</p>
+                    <h2>Contact For Any Query</h2>
+                </div>
+                <div class="row align-items-center contact-information">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Address</h3>
+                                <p>123 Street, NY, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Call Us</h3>
+                                <p>+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email Us</h3>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-share"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Follow Us</h3>
+                                <div class="contact-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/js/custom.js"></script>
+        <script src="js/js/jquery.waypoints.min.js"></script>
+    </body>
+</html>
+
